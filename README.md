@@ -7,7 +7,7 @@ This project is part of a technical evaluation assignment focused on building an
 This agent is intended to help customer support, research, content review, or educational teams automatically convert YouTube videos into searchable, structured, and interactive text-based insights.
 
 Points of Implementation
--Context aware Chunking and TIme-stamped Transcription
+- Context aware Chunking and TIme-stamped Transcription
 - Text Optimization & FAISS Index Creation
 - Importing Available Metadata and adding into knowledge base
 - RAG Based Retrival system --> Sematic + Keyword + Lanchain Doc search
