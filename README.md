@@ -100,7 +100,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![Transcript CSV Output](assets/csv_transcript.png)`
+![Transcript CSV Output](assets/csv_transcript.png)
 
 ---
 
