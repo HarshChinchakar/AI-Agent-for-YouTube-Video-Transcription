@@ -224,7 +224,7 @@ pip install streamlit  # only for UI
 ## Future Enhancements
 
 - UI via Streamlit or Flask
-- Multi-language transcription
+- Multi-language transcription, Video summary --> PDF
 - Auto-NER (Named Entity Recognition)
 - Export transcripts as PDF/HTML
 - Integration with video chapters and highlights
@@ -256,10 +256,9 @@ pip install streamlit  # only for UI
 
 ## Author
 
-- Name: [Your Name]
-- Email: [Your Email]
-- GitHub: [GitHub Profile]
-- Portfolio: [Your Website]
+- Name: [Harsh Chinchakar]
+- Email: [harshchinchakar33@gmail.com]
+- linkedin: [https://www.linkedin.com/in/harshchinchakar/]
 
 ---
 
