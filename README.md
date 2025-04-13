@@ -100,7 +100,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-![Transcript CSV Output](assets/csv_transcript.png)
+![Transcript Contxt aware chunks](assets/Chunks.png)
 
 ---
 
@@ -111,7 +111,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![Search Feature](assets/search_feature.png)`
+![Search Feature](assets/search_feature.png)
 
 ---
 
@@ -122,11 +122,11 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![Timestamp Extraction](assets/keyword_timestamps.png)`
+![Timestamp Extraction](assets/Metadata.png)
 
 ---
 
-### Step 6: Optional Summarization and hosting
+### Step 6: Summarization and hosting
 
 - Integrated HuggingFace summarizer (`bart-large-cnn`).
 - Condensed transcript into readable summary.
@@ -134,7 +134,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![Summarization](assets/summarization.png)`
+![Summarization](assets/summarization.png)
 
 ---
 
