@@ -5,6 +5,11 @@
 This project is part of a technical evaluation assignment focused on building an AI-powered agent that autonomously processes YouTube video content to generate transcripts and enable interactive NLP-based querying. The system demonstrates integration of speech recognition, YouTube video handling, and natural language processing (NLP) techniques, showcasing a complete AI automation pipeline.
 
 This agent is intended to help customer support, research, content review, or educational teams automatically convert YouTube videos into searchable, structured, and interactive text-based insights.
+- Loom Video Link - []
+
+**Flowchart Overview of the Pipeline:**
+
+![Project Flowchart](assets/component_flowchart.png)
 
 ---
 
@@ -12,7 +17,7 @@ This agent is intended to help customer support, research, content review, or ed
 
 The goal of the project is to build an AI Agent that can:
 
-- Download audio from YouTube videos.
+- Download audio from YouTube videos (Manual atp --> YT sided error).
 - Transcribe speech into text using OpenAI Whisper.
 - Provide search functionality over the transcript.
 - Enable timestamped keyword extraction.
@@ -68,7 +73,7 @@ YT_Video_Transcript/
 
 ### Step 1: Fetch YouTube Video and Audio
 
-- Used pytube to download only the audio stream.
+- Used pytube to download only the audio stream. --> Currently using Direct audio source 
 - Ensured compatibility with Whisper input requirements.
 
 **Image Placeholder:**
@@ -88,10 +93,10 @@ YT_Video_Transcript/
 
 ---
 
-### Step 3: Saving and Processing Transcript
+### Step 3: Context-aware + timestamped Transcript extraction
 
-- Cleaned transcript and exported as CSV.
-- Each row contains timestamp and corresponding text.
+- Dynamically merge faster-whisper chunks into contextual blocks (300–500 tokens) While merging, track the start of the first and end of the last segment
+- Each chunk contains timestamp and corresponding text.
 
 **Image Placeholder:**
 
@@ -99,10 +104,10 @@ YT_Video_Transcript/
 
 ---
 
-### Step 4: Search Functionality
+### Step 4: Search Functionality - Text Optimization & FAISS Index Creation
 
-- Used regex-based logic to find any keyword or phrase.
-- Matched results return full sentences and timestamps.
+- Used Semantic + Keyword + LangChain Document search for best paced search. 
+- Retrieved most relevant chunks (Combination of all 3, no recurring)
 
 **Image Placeholder:**
 
@@ -110,10 +115,10 @@ YT_Video_Transcript/
 
 ---
 
-### Step 5: Timestamped Phrase Extraction
+### Step 5: Importing Available Metadata
 
-- Returns list of all timestamps where keyword appears.
-- Supports partial or exact phrase match.
+- Importing Video metadata (Desc, Links, Captions)
+- Added to knowledge base for precise mapping and overall context understanding.
 
 **Image Placeholder:**
 
@@ -121,10 +126,11 @@ YT_Video_Transcript/
 
 ---
 
-### Step 6: Optional Summarization
+### Step 6: Optional Summarization and hosting
 
 - Integrated HuggingFace summarizer (`bart-large-cnn`).
 - Condensed transcript into readable summary.
+- Hosted using Gradio.
 
 **Image Placeholder:**
 
@@ -256,9 +262,9 @@ pip install streamlit  # only for UI
 
 ## Author
 
-- Name: [Harsh Chinchakar]
-- Email: [harshchinchakar33@gmail.com]
-- linkedin: [https://www.linkedin.com/in/harshchinchakar/]
+- Name: Harsh Chinchakar
+- Email: harshchinchakar33@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/harshchinchakar/](https://www.linkedin.com/in/harshchinchakar/)
 
 ---
 
