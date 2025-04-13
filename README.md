@@ -5,6 +5,14 @@
 This project is part of a technical evaluation assignment focused on building an AI-powered agent that autonomously processes YouTube video content to generate transcripts and enable interactive NLP-based querying. The system demonstrates integration of speech recognition, YouTube video handling, and natural language processing (NLP) techniques, showcasing a complete AI automation pipeline.
 
 This agent is intended to help customer support, research, content review, or educational teams automatically convert YouTube videos into searchable, structured, and interactive text-based insights.
+
+Points of Implementation
+-Context aware Chunking and TIme-stamped Transcription
+- Text Optimization & FAISS Index Creation
+- Importing Available Metadata and adding into knowledge base
+- RAG Based Retrival system --> Sematic + Keyword + Lanchain Doc search
+- Dual Memory Supprot (Short term {Chat History 3} + Long Tern {Knowledge Base})
+- Error Free Hosting
 - Loom Video Link - []
 
 **Flowchart Overview of the Pipeline:**
