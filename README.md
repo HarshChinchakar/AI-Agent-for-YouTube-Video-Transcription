@@ -194,22 +194,6 @@ pip install streamlit  # only for UI
 
 ---
 
-## Demo Output Screenshots
-
-- Transcription Output  
-  `![Transcript](assets/transcript_output.png)`
-
-- Search Functionality  
-  `![Search](assets/search_feature.png)`
-
-- Keyword Timestamp Extraction  
-  `![Timestamps](assets/keyword_timestamps.png)`
-
-- Summarization Output  
-  `![Summarization](assets/summarization.png)`
-
----
-
 ## Testing Strategy
 
 - Ran across multiple video types: tutorials, podcasts, tech reviews.
