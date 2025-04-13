@@ -78,7 +78,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![YouTube Audio Download](assets/youtube_download.png)`
+![YouTube Audio Download](assets/youtube_download.png)
 
 ---
 
