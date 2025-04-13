@@ -13,7 +13,7 @@ Points of Implementation
 - RAG Based Retrival system --> Sematic + Keyword + Lanchain Doc search
 - Dual Memory Supprot (Short term {Chat History 3} + Long Tern {Knowledge Base})
 - Error Free Hosting
-- Loom Video Link - []
+- Loom Video Link - https://www.loom.com/share/dcc0f9de0d5b470784cccfcdb8c97557
 
 **Flowchart Overview of the Pipeline:**
 
