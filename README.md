@@ -89,7 +89,7 @@ YT_Video_Transcript/
 
 **Image Placeholder:**
 
-`![Transcription Output](assets/transcript_output.png)`
+`![Transcription Output](assets/transcript_output.png)
 
 ---
 
