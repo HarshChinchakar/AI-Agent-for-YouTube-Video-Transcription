@@ -1,5 +1,8 @@
 # AI Agent for YouTube Video Transcript
 
+Multiple times the preview isnt available, Either download the file/ Or Open the colab file (Public)
+
+**Colab Link -** [https://colab.research.google.com/drive/1cUanzcG9__nBmGmrpiFtmx4MGUGSjO0R?usp=sharing]
 ## Overview
 
 This project is part of a technical evaluation assignment focused on building an AI-powered agent that autonomously processes YouTube video content to generate transcripts and enable interactive NLP-based querying. The system demonstrates integration of speech recognition, YouTube video handling, and natural language processing (NLP) techniques, showcasing a complete AI automation pipeline.
